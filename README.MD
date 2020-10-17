@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img width="460" height="300" src="https://blog.fortestecnologia.com.br/wp-content/uploads/2017/08/conheca-os-5-passos-para-controlar-bem-o-seu-estoque.png">
+  <img width="660" height="300" src="https://teehunter.com/wp-content/uploads/2015/06/mega-man-t-shirts-banner.jpg">
 </p>
 
 </br>
@@ -21,10 +21,8 @@
 ## :white_check_mark: Features
 
 * Web Api construida com Asp.net core API
-* Páginas de front-end simples para interação com a API
-* Mapeamento no postman
 * Crud utilizando ORM Entity Framework Core
-* Utilizado em repositry patterns e interfaces para fazer gestão de desacoplamento
+* Utilizado em repository patterns e interfaces para fazer gestão de desacoplamento
 
 
 ## :globe_with_meridians: Tecnologias
@@ -33,10 +31,6 @@ Esse projeto foi desenvolvido usando as seguintes tecnologias:
 
 -  [Asp.Net Core](https://docs.microsoft.com/pt-br/aspnet/core/?view=aspnetcore-3.1)
 -  [SQL Server](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
--  [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML/HTML5)
--  [CSS3](https://developer.mozilla.org/pt-BR/docs/Archive/CSS3)
--  [Javascript](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
--  [Bootstrap 4](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
 ## :wrench: Como Utilizar
 
@@ -44,31 +38,38 @@ Clone essa aplicação utilizando o [Git](https://git-scm.com) e siga os próxim
 
 ```bash
 # 1. Clone esse repositório
-$ git clone https://github.com/felipeAguiarCode/materiais-api.git
+$ git clone https://github.com/felipeAguiarCode/MegaApiDotnetCore.git
 
-# 2. Abra o projeto no visual studio
-Abra o arquivo de solução 'apiMateriais.sln' no visual studio
+# 2. Abra o projeto no vs code
+Abra o diretório princial no seu vscode utilizando 'code .'
 
 # 3. Faça a restauração das dependências
-Utilize o comando 'dotnet restore' ou faça a restauração dos pacotes nuggets pela interface do visual studio
+Utilize o comando 'dotnet restore' para fazer a restauração dos pacotes nuggets
 
-# 4. Execute os scripts SQL para criação do banco
-Abra a pasta *DOCS* e execute o arquivo 'script de criação de banco.sql'
-  
-# 5. Alterar string de conexão
-Na *linha 16* do arquivo Data > MaterialContext.cs edite o usuário e senha utilizado no banco
-
-# 6. Rode a aplicação
-Use o CMD para executar a API no 'dot.net run' ou através rode através do visual studio pelo IIS ou selfhost.
-
-# 7 Acesse o front end
-Com o projeto em execução, acesse a pasta 'Views' e abra o arquivo 'index.html'
+# 4. Rode a aplicação
+Use o CMD para executar a API no 'dot.net'
 ```
-Em seguida navegue pelo menu e execute as principais ações das rotas pelas páginas html.
-
 
 ## :memo: Licença 
-This project is under the MIT license. See the [LICENSE](https://github.com/lukemorales/react-native-design-code/blob/master/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE] for more information.
+
+
+### Estrutura de pastas
+
+```🌐src
+├── 📂 Controllers      [Rotas para endpoints]
+├── 📂 Models           [Modelos do banco de dados]
+├── 📂 Services         [Regras de negócio]
+├── 📂 Middlwares       [Funções intermediarias pedido HTTP e a resposta final do servidor]
+├── 📂 Database         [Estruturas referentes ao banco de dados]
+│   ├── 📂 DTOs             [Inputs Models e View Models (Data Transfer Objects)]
+│   ├── 📂 EntityFramework  [Arquivos referente ao ORM Entity Framework]
+│   │     ├── 📂 Context         [Configurações de contexto do Entity]
+│   │     ├── 📂 Migrations      [Migrations para atualização do Banco]
+│   ├── 📂 Repositories     [Repository pattern]
+
+🧪Tests [Em construção]
+```
 
 ## Autor
 
