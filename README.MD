@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img width="660" height="300" src="https://teehunter.com/wp-content/uploads/2015/06/mega-man-t-shirts-banner.jpg">
+  <img width="660" height="350" src="https://teehunter.com/wp-content/uploads/2015/06/mega-man-t-shirts-banner.jpg">
 </p>
 
 </br>
@@ -11,12 +11,10 @@
  
 <p align="center">
   <a href="#white_check_mark-Features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#globe_with_meridians-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#globe_with_meridians-Tecnologias-Implementadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#wrench-Como-utilizar">Como Utilizar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-Licença">Licença</a>
 </p>
-
-
 
 ## :white_check_mark: Features
 
@@ -25,12 +23,31 @@
 * Utilizado em repository patterns e interfaces para fazer gestão de desacoplamento
 
 
-## :globe_with_meridians: Tecnologias
+## :globe_with_meridians: Tecnologias Implementadas:
 
 Esse projeto foi desenvolvido usando as seguintes tecnologias:
 
--  [Asp.Net Core](https://docs.microsoft.com/pt-br/aspnet/core/?view=aspnetcore-3.1)
--  [SQL Server](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
+- ASP.NET Core 3.1 (with .NET Core 3.1)
+- Entity Framework Core 3.1
+
+
+### ⚙ Arquitetura
+
+```🌐
+src
+├── 📂 Controllers      [Rotas para endpoints]
+├── 📂 Models           [Modelos do banco de dados]
+├── 📂 Services         [Regras de negócio]
+├── 📂 Middlwares       [Funções intermediarias pedido HTTP e a resposta final do servidor]
+├── 📂 Database         [Estruturas referentes ao banco de dados]
+│   ├── 📂 DTOs             [Inputs Models e View Models (Data Transfer Objects)]
+│   ├── 📂 EntityFramework  [Arquivos referente ao ORM Entity Framework]
+│   │     ├── 📂 Context         [Configurações de contexto do Entity]
+│   │     ├── 📂 Migrations      [Migrations para atualização do Banco]
+│   ├── 📂 Repositories     [Repository pattern]
+
+🧪Tests [Em construção]
+```
 
 ## :wrench: Como Utilizar
 
@@ -50,26 +67,10 @@ Utilize o comando 'dotnet restore' para fazer a restauração dos pacotes nugget
 Use o CMD para executar a API no 'dot.net'
 ```
 
+
 ## :memo: Licença 
 This project is under the MIT license. See the [LICENSE] for more information.
 
-
-### Estrutura de pastas
-
-```🌐src
-├── 📂 Controllers      [Rotas para endpoints]
-├── 📂 Models           [Modelos do banco de dados]
-├── 📂 Services         [Regras de negócio]
-├── 📂 Middlwares       [Funções intermediarias pedido HTTP e a resposta final do servidor]
-├── 📂 Database         [Estruturas referentes ao banco de dados]
-│   ├── 📂 DTOs             [Inputs Models e View Models (Data Transfer Objects)]
-│   ├── 📂 EntityFramework  [Arquivos referente ao ORM Entity Framework]
-│   │     ├── 📂 Context         [Configurações de contexto do Entity]
-│   │     ├── 📂 Migrations      [Migrations para atualização do Banco]
-│   ├── 📂 Repositories     [Repository pattern]
-
-🧪Tests [Em construção]
-```
 
 ## Autor
 
