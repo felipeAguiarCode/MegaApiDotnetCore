@@ -11,7 +11,7 @@
   
 <p align="center">
   <a href="#white_check_mark-Features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#globe_with_meridians-Tecnologias-Implementadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#globe_with_meridians-Tecnologias-e-Conceitos-Implementados">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#wrench-Como-utilizar">Como Utilizar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#gear-Arquitetura">Arquitetura</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-Licença">Licença</a>
@@ -25,13 +25,18 @@
 * Utilizado em repository patterns e interfaces para fazer gestão de desacoplamento
 
 
-## :globe_with_meridians: Tecnologias Implementadas:
+## :globe_with_meridians: Tecnologias e Conceitos Implementados
 
 Esse projeto foi desenvolvido usando as seguintes tecnologias:
 
 - ASP.NET Core 3.1 (with .NET Core 3.1)
 - Entity Framework Core 3.1
 
+Conceitos/Técnicas utilizadas:
+- Data Transfer Object [DTO]
+- Repository Pattern
+- Utilização de middelwares
+- Injeção de dependências
 
 ## :gear: Arquitetura
 
