@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using Megaman.Dtos;
-using Megaman.Services;
+using Api.App.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Megaman.Controllers

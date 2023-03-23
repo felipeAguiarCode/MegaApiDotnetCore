@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Megaman.Models
+namespace Api.Domain.Entities
 {
     [Table("tblRobots")]
     public class Robot

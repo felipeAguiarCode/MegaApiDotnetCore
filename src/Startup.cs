@@ -1,5 +1,5 @@
 using Megaman.Database;
-using Megaman.Services;
+using Api.App.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -27,7 +27,7 @@ namespace Megaman
             
             services.AddControllers();
 
-            services.AddScoped<IRobotRepository, SqlRobotRepository>();
+            services.AddScoped<IRobotRepository, MockRobotRepository>();
             services.AddScoped<IRobotServices, RobotServices>();
         }
 

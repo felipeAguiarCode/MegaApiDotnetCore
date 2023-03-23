@@ -1,11 +1,11 @@
 using System.Collections.Generic;
 using Megaman.Database;
 using Megaman.Dtos;
-using Megaman.Models;
+using Api.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace Megaman.Services
+namespace Api.App.Services
 {
     public class RobotServices : IRobotServices
     {
