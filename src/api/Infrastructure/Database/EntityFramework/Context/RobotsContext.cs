@@ -1,4 +1,4 @@
-using Megaman.Models;
+using Api.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Megaman.Database

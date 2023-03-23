@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using Megaman.Models;
+using Api.Domain.Entities;
 
 namespace Megaman.Database
 {

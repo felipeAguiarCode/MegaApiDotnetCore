@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using Megaman.Dtos;
-using Megaman.Models;
+using Api.Domain.Entities;
 
-namespace Megaman.Services
+namespace Api.App.Services
 {
     public interface IRobotServices
     {
