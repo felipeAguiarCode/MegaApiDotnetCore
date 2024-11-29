@@ -1,34 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\t_faguiar\\Documents\\estudos\\testes\\netrest\\megaman\\src\\MegamanApi.csproj": {}
+    "C:\\records\\raw\\Documentação\\MegaApiDotnetCore\\src\\MegamanApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\t_faguiar\\Documents\\estudos\\testes\\netrest\\megaman\\src\\MegamanApi.csproj": {
+    "C:\\records\\raw\\Documentação\\MegaApiDotnetCore\\src\\MegamanApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\t_faguiar\\Documents\\estudos\\testes\\netrest\\megaman\\src\\MegamanApi.csproj",
+        "projectUniqueName": "C:\\records\\raw\\Documentação\\MegaApiDotnetCore\\src\\MegamanApi.csproj",
         "projectName": "MegamanApi",
-        "projectPath": "C:\\Users\\t_faguiar\\Documents\\estudos\\testes\\netrest\\megaman\\src\\MegamanApi.csproj",
-        "packagesPath": "C:\\Users\\t_faguiar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\t_faguiar\\Documents\\estudos\\testes\\netrest\\megaman\\src\\obj\\",
+        "projectPath": "C:\\records\\raw\\Documentação\\MegaApiDotnetCore\\src\\MegamanApi.csproj",
+        "packagesPath": "C:\\Users\\Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\records\\raw\\Documentação\\MegaApiDotnetCore\\src\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\t_faguiar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -36,10 +32,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -66,10 +68,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.32, 3.1.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -78,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
